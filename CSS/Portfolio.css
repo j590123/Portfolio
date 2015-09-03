@@ -24,9 +24,10 @@ h4 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: stretch;
-    align-content: center  ;
+    width: 100%;
+
 }
 
 .item{
@@ -35,16 +36,19 @@ h4 {
 
 .tableOfContents {
     order: 1;
-    padding-left: 15px;
+    background-color: #00FF00;
+
 
 }
 .about {
     order: 2;
+    flex:;
+    background-color: aqua;
     align-content: center;
 }
 .duck {
     order: 3;
-    alignment: center;
+    background-color: antiquewhite;
 }
 
 #duck {
