@@ -42,12 +42,13 @@ h4 {
 }
 .about {
     order: 2;
-    flex:;
+    flex-grow: 3;
     background-color: aqua;
     align-content: center;
 }
 .duck {
     order: 3;
+    flex-grow: 2;
     background-color: antiquewhite;
 }
 
