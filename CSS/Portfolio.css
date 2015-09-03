@@ -1,0 +1,53 @@
+body {
+    color: whitesmoke;
+    background-image: url(../Images/Labrador_Retriever_4922645.jpg);
+    background-size: contain;
+}
+
+h2 {
+    color: olivedrab;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h4 {
+    color: darkgreen;
+    text-align: center
+}
+
+.linkedIn {
+    height: 10%;
+    width: 10%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center  ;
+}
+
+.item{
+    flex: 1;
+}
+
+.tableOfContents {
+    order: 1;
+    padding-left: 15px;
+
+}
+.about {
+    order: 2;
+    align-content: center;
+}
+.duck {
+    order: 3;
+    alignment: center;
+}
+
+#duck {
+    width: 50%;
+    height: 50%;
+}
